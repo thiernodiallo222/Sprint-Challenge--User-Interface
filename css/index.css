@@ -157,7 +157,6 @@ nav {
      width: 70%;
      height: 90%;
      padding: 10%;
-   ;
  }
  .my-top-img{
      display: block;
@@ -172,4 +171,34 @@ nav {
      align-items: flex-end;
      align-content: flex-start;
  }
- 
+ .my-top-image {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1%;
+     margin-botton: 5%;
+
+ }
+ .top-text{
+     margin-botton: 10px;
+ }
+.container-child-one, .container-child-two,
+.container-child-tree, .container-child-four{
+     width: 40%;
+ }
+ .cont-parent{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: strech;
+ }
+ body{
+     align-text: center;
+ }
+ .botton-text{
+     margin-left: 10%;
+     margin-right: 10%;
+
+ }
