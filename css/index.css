@@ -144,3 +144,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+nav {
+    display: flex;
+    justify-content: space-evenly;  
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: flex-end;
+}
+ header nav a.logo{
+    padding: 1px;
+     width: 70%;
+     height: 90%;
+     padding: 10%;
+   ;
+ }
+ .my-top-img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ nav a {
+     text-decoration: none;
+     align-items: flex-end;
+     align-content: flex-start;
+ }
+ 
