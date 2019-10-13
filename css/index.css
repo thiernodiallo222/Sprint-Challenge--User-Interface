@@ -81,8 +81,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+
     padding-bottom: 20px;  
 }
 
@@ -93,7 +92,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .middle-content .boxes {
@@ -115,13 +114,10 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2%;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
@@ -133,12 +129,11 @@ footer {
 }
 
 footer nav {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 20px;
+    font-size: 14pt;
 }
 
 footer nav a {
@@ -179,11 +174,11 @@ nav {
      margin-left: auto;
      margin-right: auto;
      padding: 1%;
-     margin-botton: 5%;
+     
 
  }
  .top-text{
-     margin-botton: 10px;
+     margin: 10px auto;
  }
 .container-child-one, .container-child-two,
 .container-child-tree, .container-child-four{
@@ -197,12 +192,11 @@ nav {
      justify-content: center;
      align-content: strech;
  }
- body{
-     align-text: center;
- }
+ 
  .botton-text{
-     margin-left: 10%;
-     margin-right: 10%;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
  }
  body, html {
 margin-left:1%;
@@ -211,17 +205,18 @@ margin-bottom:1%;
 margin-top:1%;
 }
 .middle-content{
-width: 850px;
+width: 100%;
+margin-left: auto;
 margin-bottom: 30px;
-margin-left: 20px;
 padding: 0px;
 }
-.boxes{
-    margin-left: 0px;
+.middle-content .boxes{
+    margin-left: 0;
     padding: 0px;
 }
 #box1{
     background: teal;
+   
 }
 #box2{
     background: gold;
@@ -237,9 +232,11 @@ padding: 0px;
 }
 #box6{
     background: forestgreen;
+  
 }
 #box7{
     background: darkorchid;
+   
 }
 #box8{
     background: hotpink;
@@ -251,15 +248,8 @@ padding: 0px;
 #box10{
     background: dodgerblue;
 }
-/*
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
-*/
+#whydidI{
+    padding: 20px auto;
+    margin-top: 10px;
+   
+}
