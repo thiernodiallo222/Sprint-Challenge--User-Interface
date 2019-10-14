@@ -34,14 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+The word "semantic means "meaning". Therefore, semantic html refers to html tags that conveys a meaning of their content to both the developpers and browsers. For example, the "div" tag is a non semantic, because it conveys no information about its content. However, a nav tag, tells us that it is a navigation element, a "li" tag tells us it is a list item and so on. 
+
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+in display: block, the element is displayed in a way that the next element that comes after it will be forced to go to a new line. 
+In the other hand, the inline is another way to display an element that allows the next elements to display in the same line.
+
 
 3. What are the 4 areas of the box model?
+The four areas of the box model are: the content(right in the middle), the padding, that surrounds dirrectly the content, the border, (that surrounds the padding) and finally, the margin(that surrounds the border).
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+the align-items property is a flexbox property that defines the default behavior of how the flex items are displayed along the cross axis on the cross line.
+
 
 5. Explain why git is valuable to a team of developers.
-
+Git is a version control system, that allows one to track all the changes by saving every version. This way, one can go back to a previous version, if she thinks that she is messed up something in the current version. It also allows one to connect to git-hub, and publish her code, work with other developers, perform clone, pull and push requests from her loca reposetory to the github to an equivalent hub.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
