@@ -189,18 +189,20 @@ nav {
      margin: auto;
      display: flex;
      flex-direction: row;
-     flex-wrap: wrap;
+     flex-wrap: wrap;   
      justify-content: center;
-     
  }
 .container-child{
-     width: 40%;
-     margin-left: 0;
-     margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0 0 0;
+     width: 450px;
+     margin: 20px 0 0 0;
      flex-wrap: wrap;
      border-bottom: 1px dashed black;
  }
- 
+ .image{
+     width: 100%;
+ }
  
  .botton-text{
      width: 100%;
@@ -213,10 +215,6 @@ width: 100%;
 margin-left: auto;
 margin-bottom: 30px;
 padding: 0px;
-}
-.middle-content .boxes{
-    margin-left: 0;
-    padding: 0px;
 }
 #box1{
     background: teal;
@@ -252,9 +250,12 @@ padding: 0px;
 #box10{
     background: dodgerblue;
 }
-#whydidI{
-    padding: 20px auto;
-    margin-top: 10px;  
+.middle-content .boxes{
+    margin-left: 0;
+    padding: 0px;
+}
+.text-above-boxes{
+    margin: 20px 0 0 0;
 }
 .footer_about{
 display: block;
@@ -266,6 +267,8 @@ margin: auto;
     height: 30px;
     margin: 1px;
     padding: 3px;
+    background: rgb(221, 215, 215);
+    border-radius: 10px;
 } 
 .bottom-text{
 width: 80%;
